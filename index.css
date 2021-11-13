@@ -115,3 +115,15 @@ a{
 #flex1 p{
     font-style: italic;
 }
+.organic{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0000;
+}
+#Image img{
+    height: 640px;
+}
+#review{
+    text-align: center;
+    padding: 160px 70px 0 0;
+}
