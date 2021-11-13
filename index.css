@@ -22,7 +22,7 @@ nav{
     color: #f19201;
 }
 ul{
-    padding-left: 335px;
+    padding-left: 370px;
 }
 ul>:first-child>a{
     color: #f19201;
@@ -30,22 +30,23 @@ ul>:first-child>a{
 
 li{
     display: inline-flex;
-    padding: 10px 0 0 54px;
+    padding: 10px 0 0 45px;
 }
 a{
     text-decoration: none;
     color: #ffff;
     font-size: 20px;
-    font-style: bolder;
+    font-weight: bolder;
 }
 #moringa{
-    padding: 20px 0 0 80px;
+    padding: 18px 0 0 80px;
     
 }
 #moringa button{
     height: 40px;
     width: 110px;
     font-size: 15px;
+    font-weight: bolder;
     color: #ffff;
     background: #f19201;
     border: #f19201;
@@ -63,8 +64,54 @@ a{
 #order button{
     width: 110px;
     height: 40px;
+    font-size: 14px;
+    font-weight: bolder;
     margin-top: 70px;
     background-color: #f19201;
     color: #ffff; 
     border: 2px #f19201;
+}
+.belowHeader{
+    padding: 20px 0 70px 0;
+    background-color: #e1ebe6;
+}
+#services{
+    text-align: center;
+}
+#services h3{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #f19201;
+}
+#services p{
+    font-style: italic;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#flex1{
+    width: 300px;
+    height: 260px;
+    margin-left: 60px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #fff;
+} 
+#flex1 :first-child{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: #f19201;
+    color: #ffff;
+    outline: none;
+    border: none;
+    font-size: 16px;
+} 
+#flex1 p{
+    font-style: italic;
 }
