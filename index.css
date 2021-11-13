@@ -1,15 +1,28 @@
+header{
+    background-image: url(images/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
 nav{
     display: flex;
-    background: black;
+    background: rgba(0,0,0,.5);
+}
+.navbar{
+    padding-left: 40px;
+    padding-top: 10px;
 }
 .navbar img{
+    height: 60px;
     vertical-align: middle;
+
 }
 #logo{
     display: inline-block;
+    color: #f19201;
 }
 ul{
-    padding-left: 400px;
+    padding-left: 335px;
 }
 ul>:first-child>a{
     color: #f19201;
@@ -17,11 +30,13 @@ ul>:first-child>a{
 
 li{
     display: inline-flex;
-    padding: 15px 0 0 60px;
+    padding: 10px 0 0 54px;
 }
 a{
     text-decoration: none;
     color: #ffff;
+    font-size: 20px;
+    font-style: bolder;
 }
 #moringa{
     padding: 20px 0 0 80px;
@@ -34,4 +49,22 @@ a{
     color: #ffff;
     background: #f19201;
     border: #f19201;
+}
+#welcome{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    color: #ffff;
+    line-height: 18px;
+}
+#order{
+    padding-left: 50px;
+}
+#order button{
+    width: 110px;
+    height: 40px;
+    margin-top: 70px;
+    background-color: #f19201;
+    color: #ffff; 
+    border: 2px #f19201;
 }
