@@ -2,14 +2,14 @@
 # Description
 This is a sample of a landing page of a popular restaurant. The page shows how content would be laid out in the actual website and is therefore prone to change.
 # TECHNOLOGIES USED
-The page is written in pure HTML with an addition of a cascading style sheet(* css *)
+The page is written in pure HTML with an addition of a cascading style sheet(CSS)
 
 # SET-UP
 The page can be viewed by clicking the attached Github pages link on the top right corner.
 
 ## Authors
 
--[@NyanjuiMarvin](https://www.github.com/Nyanjuimarvin)
+[@NyanjuiMarvin](https://www.github.com/Nyanjuimarvin)
 
 ## COPYRIGHT
 Copyright 2021 Marvin Nyanjui
