@@ -1,3 +1,6 @@
+body{
+    font-family: 'Roboto';
+}
 header{
     background-image: url(images/image2.png);
     background-repeat: no-repeat;
@@ -108,22 +111,44 @@ a{
     border-radius: 50%;
     background-color: #f19201;
     color: #ffff;
-    outline: none;
-    border: none;
     font-size: 16px;
 } 
 #flex1 p{
     font-style: italic;
 }
 .organic{
-    display: flex;
+    display:inline-flex;
     justify-content: space-between;
+    align-content: space-around;
     background-color: #0000;
 }
 #Image img{
-    height: 640px;
+    height: 600px;
 }
 #review{
+    width: 618px;
+    padding-top: 100px;
     text-align: center;
-    padding: 160px 70px 0 0;
+    background-color: black;
+    color: #ffff;
+}
+#review h2{
+    padding-bottom: 30px;
+}
+#review h3{
+    padding-bottom: 30px;
+}
+#review :nth-child(5){
+    padding-bottom: 40px;
+}
+#review h2:after {
+    content: ""; 
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding-top: 10px;
+    border-bottom: 2px solid #ffff;
+}
+#review p{
+    font-style: italic;
 }
