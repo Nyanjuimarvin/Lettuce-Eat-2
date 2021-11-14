@@ -170,6 +170,7 @@ main{
 }
 .menu > h3{
     color: #f19201;
+    font-size: 25px;
 }
 .menu p{
     font-style: italic;
