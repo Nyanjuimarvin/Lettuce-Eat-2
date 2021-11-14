@@ -162,6 +162,7 @@ a{
 main{
     height: 800px;
     padding-top: 30px;
+    margin-top: -10px;
     background-color: #e1ebe6;
 }
 .menu{
@@ -236,9 +237,18 @@ footer :nth-child(2){
 footer :nth-child(3){
     width: 120px;
     height: 30px;
+    font-weight: bolder;
     border: 2px solid #ffff;
     margin-bottom: 120px;
     background: none;
     color: #ffff;
 
+}
+#copyright{
+    text-align: center;
+    color: #ffff;
+    background-color: black;
+    margin-top: -30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
